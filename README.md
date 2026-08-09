@@ -1,6 +1,6 @@
 # agente
 
-Bare-minimum Chainlit conversational AI agent.
+Bare-minimum Chainlit conversational AI agent using Claude.
 
 ## Run
 
@@ -12,7 +12,7 @@ cp .env.example .env
 DEBUG=false chainlit run app.py -w
 ```
 
-Add your OpenAI API key to `.env`, then open http://localhost:8000.
+Add your AWS Bedrock API key to `.env`, then open http://localhost:8000.
 
 If port 8000 is busy, run:
 
